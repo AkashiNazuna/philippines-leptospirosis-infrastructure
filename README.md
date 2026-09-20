@@ -38,3 +38,10 @@ A 2024 review reported 182 cases in 2020, 1,661 cases in 2021, and 2,794 cases i
 
 - Unraveling the leptospirosis epidemic: tales from the Philippine outbreak – a short communication
   https://pmc.ncbi.nlm.nih.gov/articles/PMC10849348/
+  ## Leptospirosis cases
+
+| Year | Reported cases |
+|---|---:|
+| 2020 | 182 |
+| 2021 | 1661 |
+| 2022 | 2794 |
