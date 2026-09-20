@@ -48,3 +48,6 @@ A 2024 review reported 182 cases in 2020, 1,661 cases in 2021, and 2,794 cases i
 ## First observation
 
 From 2020 to 2022, reported leptospirosis cases increased sharply, while access to safely managed sanitation services increased slightly.
+## Limitation
+
+This simple comparison does not show that sanitation conditions caused the change in leptospirosis cases. Other factors, such as flooding, rainfall, reporting practices, and public health measures, may also have influenced the number of reported cases.
