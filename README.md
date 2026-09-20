@@ -45,3 +45,6 @@ A 2024 review reported 182 cases in 2020, 1,661 cases in 2021, and 2,794 cases i
 | 2020 | 182 |
 | 2021 | 1661 |
 | 2022 | 2794 |
+## First observation
+
+From 2020 to 2022, reported leptospirosis cases increased sharply, while access to safely managed sanitation services increased slightly.
