@@ -11,5 +11,5 @@ The analysis will use publicly available data on sanitation infrastructure and r
 Are reported leptospirosis cases associated with access to sanitation services in the Philippines?
 ## Planned data sources
 
-- World Bank: sanitation services in the Philippines
+- World Bank: people using at least basic sanitation services (% of population)
 - Philippines Department of Health: reported leptospirosis cases
