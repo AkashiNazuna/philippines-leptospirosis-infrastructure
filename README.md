@@ -73,4 +73,30 @@ The scatter plot appeared to slope upward between the high-hazard share within m
 
 The high-hazard percentage uses only the area covered by hazard polygons as its denominator, not the whole city. Polygon coverage varies markedly by city (roughly 20–74%); across all NCR boundaries, polygons cover 245.71 of 601.73 sq km (40.83%). The available ZIP/README does not document whether an area with no hazard polygon means no hazard, so that interpretation remains unresolved. The comparison is ecological (city-level) and exploratory: unequal map coverage, interpolated populations, unmeasured factors, only 17 local government units, and reported cases that may not represent all infections limit interpretation. Next steps are to resolve the no-polygon interpretation, quantify the relationship statistically, and test how the results change under alternative coverage assumptions. The analysis is not complete.
 
-The comparison CSV (`data/processed/ncr_city_comparison_2018_2020.csv`) and scatter plot (`data/processed/ncr_hazard_cases_scatter.png`) described for this analysis are not present in this checkout.
+### City comparison results (2018–2020)
+
+The table compares reported leptospirosis cases per 100,000 person-years with the share of high-hazard area within the parts of each city covered by the NOAH hazard polygons. Population figures for 2018–2020 were estimated from the 2015 and 2020 census counts.
+
+| City/Municipality | Reported cases (2018–2020) | Cases per 100,000 person-years | Hazard-map coverage of city (%) | High hazard within mapped area (%) |
+|---|---:|---:|---:|---:|
+| Manila | 572 | 10.40 | 66.87 | 7.58 |
+| Mandaluyong | 71 | 5.66 | 33.51 | 14.81 |
+| Marikina | 262 | 19.19 | 67.88 | 70.41 |
+| Pasig | 200 | 8.40 | 66.56 | 38.18 |
+| Quezon City | 1,294 | 14.60 | 29.26 | 41.15 |
+| San Juan | 20 | 5.31 | 32.64 | 29.31 |
+| Caloocan | 267 | 5.41 | 20.44 | 23.71 |
+| Malabon | 175 | 15.45 | 73.62 | 27.67 |
+| Navotas | 104 | 13.98 | 71.14 | 3.11 |
+| Valenzuela | 128 | 6.13 | 31.84 | 27.33 |
+| Las Piñas | 110 | 6.08 | 40.02 | 13.64 |
+| Makati | 108 | 5.80 | 43.35 | 10.10 |
+| Muntinlupa | 37 | 2.30 | 33.42 | 13.15 |
+| Parañaque | 221 | 10.75 | 43.77 | 20.53 |
+| Pasay | 80 | 6.12 | 54.59 | 10.12 |
+| Taguig | 291 | 11.14 | 40.79 | 9.48 |
+| Pateros | 10 | 5.13 | 60.24 | 3.44 |
+
+The scatter plot appears to slope upward when comparing high-hazard share with reported case rates. This is a visual observation only; no statistical correlation has been calculated. The high-hazard share is calculated only within the mapped area, and map coverage differs substantially among cities.
+
+![Scatter plot comparing high flood hazard share and leptospirosis case rates across NCR cities](data/processed/ncr_hazard_cases_scatter.png)
